@@ -16,6 +16,7 @@
 		297607C81E9B4828004F3596 /* SwiftSamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297607C71E9B4828004F3596 /* SwiftSamplerTests.swift */; };
 		297607D31E9B4828004F3596 /* SwiftSamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297607D21E9B4828004F3596 /* SwiftSamplerUITests.swift */; };
 		297607E21E9C7327004F3596 /* TapCounter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297607E01E9C7327004F3596 /* TapCounter.storyboard */; };
+		297607E41E9DE6C6004F3596 /* TapCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297607E31E9DE6C6004F3596 /* TapCounterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		297607D21E9B4828004F3596 /* SwiftSamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSamplerUITests.swift; sourceTree = "<group>"; };
 		297607D41E9B4828004F3596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		297607E11E9C7327004F3596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TapCounter.storyboard; sourceTree = "<group>"; };
+		297607E31E9DE6C6004F3596 /* TapCounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapCounterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				297607AF1E9B4828004F3596 /* AppDelegate.swift */,
 				297607B11E9B4828004F3596 /* ViewController.swift */,
 				297607B31E9B4828004F3596 /* Main.storyboard */,
+				297607E31E9DE6C6004F3596 /* TapCounterViewController.swift */,
 				297607E01E9C7327004F3596 /* TapCounter.storyboard */,
 				297607B91E9B4828004F3596 /* Assets.xcassets */,
 				297607BB1E9B4828004F3596 /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				297607B21E9B4828004F3596 /* ViewController.swift in Sources */,
+				297607E41E9DE6C6004F3596 /* TapCounterViewController.swift in Sources */,
 				297607B81E9B4828004F3596 /* SwiftSampler.xcdatamodeld in Sources */,
 				297607B01E9B4828004F3596 /* AppDelegate.swift in Sources */,
 			);
