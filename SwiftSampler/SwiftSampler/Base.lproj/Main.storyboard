@@ -58,9 +58,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="wRl-gX-8mi" kind="show" id="p6X-vx-OYo"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -73,14 +70,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LII-Xp-eTN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="241" y="-2"/>
-        </scene>
-        <!--TapCounter-->
-        <scene sceneID="elR-dg-Uxg">
-            <objects>
-                <viewControllerPlaceholder storyboardName="TapCounter" id="wRl-gX-8mi" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="voY-Xe-ijS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1067" y="-153"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

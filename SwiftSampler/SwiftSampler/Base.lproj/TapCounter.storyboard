@@ -13,7 +13,7 @@
         <!--Tap Counter View Controller-->
         <scene sceneID="ryJ-E6-ejI">
             <objects>
-                <viewController id="Dye-Ae-M2Q" customClass="TapCounterViewController" customModule="SwiftSampler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="tapCounter" id="Dye-Ae-M2Q" customClass="TapCounterViewController" customModule="SwiftSampler" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IAc-9R-B3R"/>
                         <viewControllerLayoutGuide type="bottom" id="ZxE-bG-cnk"/>
