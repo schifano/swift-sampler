@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UITableViewController {
 
-    let samples = ["Tap Counter", "TapOrHoldCounter"]
-    let sampleDetails = ["You tap, it counts", "You tap or hold the button, it counts"]
+    let samples = ["Tap Counter", "TapOrHoldCounter", "iAd Banner", "Tip Calculator"]
+    let sampleDetails = ["You tap, it counts", "You tap or hold the button, it counts", "It's a banner of an ad", "Calculate your tip"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,12 +34,20 @@ extension ViewController {
         
         switch(indexPath.row) {
         case 0:
-            let storyBoard = UIStoryboard(name: "TapCounter", bundle:nil)
+            let storyBoard = UIStoryboard(name: "TapCounter", bundle: nil)
             let vc = storyBoard.instantiateViewController(withIdentifier: "tapCounter")
             self.navigationController?.pushViewController(vc, animated: true)
         case 1:
-            let storyBoard = UIStoryboard(name: "TapOrHoldCounter", bundle:nil)
+            let storyBoard = UIStoryboard(name: "TapOrHoldCounter", bundle: nil)
             let vc = storyBoard.instantiateViewController(withIdentifier: "tapOrHoldCounter")
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 2:
+            let storyBoard = UIStoryboard(name: "iAdBanner", bundle: nil)
+            let vc = storyBoard.instantiateViewController(withIdentifier: "banner")
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            let storyBoard = UIStoryboard(name: "TipCalculator", bundle: nil)
+            let vc = storyBoard.instantiateViewController(withIdentifier: "tipCalculator")
             self.navigationController?.pushViewController(vc, animated: true)
         default:
             print("Cannot segue to selected indexPath.row")

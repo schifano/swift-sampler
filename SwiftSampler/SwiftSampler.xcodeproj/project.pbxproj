@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290E7B251EA13FBE0023C89A /* iAdBanner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290E7B241EA13FBE0023C89A /* iAdBanner.storyboard */; };
+		290E7B271EA152170023C89A /* TipCalculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290E7B261EA152170023C89A /* TipCalculator.storyboard */; };
+		290E7B291EA152270023C89A /* TipCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E7B281EA152270023C89A /* TipCalculatorViewController.swift */; };
 		297607B01E9B4828004F3596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297607AF1E9B4828004F3596 /* AppDelegate.swift */; };
 		297607B21E9B4828004F3596 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297607B11E9B4828004F3596 /* ViewController.swift */; };
 		297607B51E9B4828004F3596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297607B31E9B4828004F3596 /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		290E7B241EA13FBE0023C89A /* iAdBanner.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iAdBanner.storyboard; sourceTree = "<group>"; };
+		290E7B261EA152170023C89A /* TipCalculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TipCalculator.storyboard; sourceTree = "<group>"; };
+		290E7B281EA152270023C89A /* TipCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorViewController.swift; sourceTree = "<group>"; };
 		297607AC1E9B4828004F3596 /* SwiftSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		297607AF1E9B4828004F3596 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		297607B11E9B4828004F3596 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +148,7 @@
 			children = (
 				297607E31E9DE6C6004F3596 /* TapCounterViewController.swift */,
 				298F21851E9F1A3D002A4390 /* TapOrHoldCounterViewController.swift */,
+				290E7B281EA152270023C89A /* TipCalculatorViewController.swift */,
 				297607B11E9B4828004F3596 /* ViewController.swift */,
 			);
 			name = Controllers;
@@ -155,6 +162,8 @@
 				297607B31E9B4828004F3596 /* Main.storyboard */,
 				297607E01E9C7327004F3596 /* TapCounter.storyboard */,
 				298F21811E9F19EA002A4390 /* TapOrHoldCounter.storyboard */,
+				290E7B241EA13FBE0023C89A /* iAdBanner.storyboard */,
+				290E7B261EA152170023C89A /* TipCalculator.storyboard */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -270,10 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				297607BD1E9B4828004F3596 /* LaunchScreen.storyboard in Resources */,
+				290E7B251EA13FBE0023C89A /* iAdBanner.storyboard in Resources */,
 				297607E21E9C7327004F3596 /* TapCounter.storyboard in Resources */,
 				297607BA1E9B4828004F3596 /* Assets.xcassets in Resources */,
 				297607B51E9B4828004F3596 /* Main.storyboard in Resources */,
 				298F21821E9F19EA002A4390 /* TapOrHoldCounter.storyboard in Resources */,
+				290E7B271EA152170023C89A /* TipCalculator.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +312,7 @@
 				298F21861E9F1A3D002A4390 /* TapOrHoldCounterViewController.swift in Sources */,
 				297607B21E9B4828004F3596 /* ViewController.swift in Sources */,
 				297607E41E9DE6C6004F3596 /* TapCounterViewController.swift in Sources */,
+				290E7B291EA152270023C89A /* TipCalculatorViewController.swift in Sources */,
 				297607B81E9B4828004F3596 /* SwiftSampler.xcdatamodeld in Sources */,
 				297607B01E9B4828004F3596 /* AppDelegate.swift in Sources */,
 				298F21801E9F159F002A4390 /* Style.swift in Sources */,
